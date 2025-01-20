@@ -7,6 +7,7 @@
 - Pass props into the function parameter, use destructuring for cleaner code
 - A react component should have 1 root element
 - Data should be kept more closely to where it's relevant (ie: don't put page data that is passed into a component with the actual component code)
+- **using folders instead of files for components is purely optional**
 
 ## Component Function Syntax
 
