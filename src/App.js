@@ -52,6 +52,8 @@ function App() {
         <img src="./images/puffin.jpg" alt="puffin  " />
       </header>
       <div>
+        {/* naming conventions: the component is a singular Card because of how we want to use it */}
+        {/* TODO: Try to replace this code with the CardLayout Component */}
         {cards.map((card, index) => {
           return <Card {...card} key={index} />;
         })}
